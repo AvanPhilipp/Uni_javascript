@@ -9,7 +9,7 @@ Házi feladatok beadására használt repo...
 Console applcation handeling todo list.
 
 **fields**
-* `todos[]:{label:string, isDone:boolean}[]` -> Array of todo objects.
+* `todos:{label:string, isDone:boolean}[]` -> Array of todo objects.
 
 **functions**
 * `addTodo({label:string, isDone: boolean}):void` -> Adds a new element to the list of todos. Checks the validity of the input element. Also saves it to the localeStorage under key 'saved_todos'.

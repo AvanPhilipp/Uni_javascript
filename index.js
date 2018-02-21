@@ -56,16 +56,6 @@ function renderTodos(){
     });
 }
 
-addTodo({
-    label:"learn JavaScript",
-    isDone: true
-});
-
-addTodo({
-    label:"learn Japanese",
-    isDone: false
-});
-
 loadTodos();
 printTodos()
 renderTodos();

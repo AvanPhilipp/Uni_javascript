@@ -4,7 +4,7 @@ Házi feladatok beadására használt repo...
 
 `index.html` hosted in github pages.
 
-## lesson_1
+## lesson_1: Basics
 
 Console applcation handeling todo list.
 
@@ -18,7 +18,7 @@ Console applcation handeling todo list.
 * `loadTodos():void` -> Restores the todos list from the localeStorage according to the 'saved_todos' key.
 * `printTodos():void` -> prints the actual todos list to the console. First displayed the todo.label, then a "✓" if it is done or "Work in progress" if it is not.
 
-## lesson_2
+## lesson_2: HTML
 
 HTML rendered todo list. Extension of lesson_1.
 
@@ -31,3 +31,5 @@ HTML rendered todo list. Extension of lesson_1.
 
 **functions**
 * `renderTodos():void` -> Renders the list to the HTML DOM.
+
+## lesson_3: Functional JS
